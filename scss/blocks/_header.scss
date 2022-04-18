@@ -1,1 +1,24 @@
 // bu yerda header bor
+
+.header {
+
+    padding: 21px 0;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        text-decoration: none;
+    }
+
+    &__logo:hover {
+        opacity: 0.8;
+    }
+
+    &__logo:active {
+        opacity: 0.4;
+    }
+}

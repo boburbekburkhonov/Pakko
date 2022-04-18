@@ -1,1 +1,38 @@
 // bu yerda sitenav bor
+
+.sitenav {
+    display: flex;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        margin-right: 20px;
+        padding: 0;
+    }
+
+    &__item + &__item {
+        margin-left: 40px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #100A30;
+    }
+
+    &__link:hover {
+        opacity: 0.8;
+    }
+
+    &__link:active {
+        opacity: 0.4;
+    }
+
+    &__link--blue {
+        color: #624DE3;
+    }
+}

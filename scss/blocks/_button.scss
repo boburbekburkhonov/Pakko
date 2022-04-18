@@ -1,1 +1,54 @@
 // bu yerda button bor
+
+.button {
+    padding: 12px 24px;
+    background: #624DE3;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border: navajowhite;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:active {
+        opacity: 0.4;
+    }
+
+    &__hero {
+        padding: 15px 36px;
+        width: 210px;
+        margin-left: 500px;
+    }
+
+    &--news {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.18px;
+        background: none;
+        color: #624DE3;
+        border-radius: 0px;
+        border-bottom: 4px solid #624DE3;
+        margin-bottom: 125px;
+    }
+
+    &--news--green {
+        color: #19C787;
+        border-bottom: 4px solid #19C787;
+    }
+
+    &--price {
+        margin-bottom: 80px;
+        margin-left: 620px;
+        width: 101px;
+        padding: 0 20px;
+        background: #624DE3;
+        border-radius: 200px;
+    }
+}

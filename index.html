@@ -10,11 +10,232 @@
 <body>
     <!-- HEADER -->
     <header class="header">
+        <div class="container header__container">
+            <a class="header__logo" href="#">
+                <img class="header__img" src="./images/logo.svg" alt="logo" width="104" height="24">
+            </a>
+            <!-- NAV -->
+            <nav class="sitenav">
+                <ul class="sitenav__list">
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">
+                            Fonctionnalités
+                        </a>
+                    </li>
 
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">
+                            Tarifs
+                        </a>
+                    </li>
+
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">
+                            App iOS
+                        </a>
+                    </li>
+
+                    <li class="sitenav__item">
+                        <a class="sitenav__link sitenav__link--blue" href="#">
+                            Me connecter
+                        </a>
+                    </li>
+                </ul>
+
+                <button class="button">S'inscrire</button>
+            </nav>
+        </div>
     </header>
     <!-- MAIN -->
     <main class="main">
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container hero__container">
+                <h1 class="hero__heading">
+                    Devis, factures, suivi, plafonds, cotisations
+                </h1>
+                <p class="hero__desc">
+                    Pakko accompagne les micro-entrepreneurs et leur fait gagner du temps !
+                </p>
 
+                <button class="button button__hero">Créer mon compte</button>
+                <button class="hero__btn">Voir la vidéo</button>
+                <img class="hero__img" src="./images/heromin.png" alt="hero img" width="1207" height="927">
+            </div>
+        </section>
+        <!-- NEWS -->
+        <section class="news">
+            <div class="container">
+                <ul class="news__list">
+                    <li class="news__item">
+                        <div class="news__list-left">
+                            <span class="news__span">Suivi et analyse</span>
+                            <p class="news__desc">
+                                Chiffre d'affaires, cotisations, plafonds ...
+                            </p>
+                            <p class="news__desc-small">
+                                Visualisez et comparez vos chiffres sur l'année, le trimestre ou le mois. Chiffre d'affaires, cotisations, plafonds, TVA récoltée, encaissements et ce qu'il reste dans votre poche réellement à la fin !
+                            </p>
+
+                            <button class="button button--news">En savoir plus</button>
+                        </div>
+
+                        <img class="news__img" src="./images/poche.png" alt="poche" width="524" height="585">
+                    </li>
+
+                    <li class="news__item">
+                        <div class="news__list-left news__list-left--margin">
+                            <span class="news__span news__span--green">Devis et facturation</span>
+                            <p class="news__desc">
+                                Générez vos factures et devis en un rien de temps
+                            </p>
+                            <p class="news__desc-small">
+                                Générez des factures et des devis esthétiques. Suivez chaque étape importante : envoyé, en retard, payé… Générez des acomptes et des soldes en quelques clics seulement.
+                            </p>
+
+                            <button class="button button--news button--news--green">En savoir plus</button>
+                        </div>
+
+                        <img class="news__img news__img--margin" src="./images/sp.png" alt="poche" width="524" height="585">
+                    </li>
+
+                    <li class="news__item">
+                        <div class="news__list-left">
+                            <span class="news__span">Gestion des projets et clients</span>
+                            <p class="news__desc">
+                                Gérez facilement vos clients et projets
+                            </p>
+                            <p class="news__desc-small">
+                                Créez rapidement vos projets et clients. Suivez les chiffres clés pour chacun. Retrouvez tous vos documents plus facilement.
+                            </p>
+
+                            <button class="button button--news">En savoir plus</button>
+                        </div>
+
+                        <img class="news__img" src="./images/reveal.png" alt="poche" width="524" height="585">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- SERVICES -->
+        <section class="services">
+            <div class="container">
+                <h2 class="services__heading">
+                    Pensé pour les
+                    micro-entrepreneurs
+                </h2>
+
+                <ul class="services__list">
+                    <li class="services__item">
+                        <a class="services__link" href="#">
+                            <img class="services__img" src="./images/yellow.png" alt="yellow" width="88" height="88">
+
+                            <p class="services__desc">Gestion de l'ACRE</p>
+                        </a>
+                    </li>
+
+                    <li class="services__item">
+                        <a class="services__link" href="#">
+                            <img class="services__img" src="./images/green.png" alt="yellow" width="88" height="88">
+
+                            <p class="services__desc">Gestion de la TVA</p>
+                        </a>
+                    </li>
+
+                    <li class="services__item">
+                        <a class="services__link" href="#">
+                            <img class="services__img" src="./images/static.png" alt="yellow" width="88" height="88">
+
+                            <p class="services__desc">Calcul des cotisations</p>
+                        </a>
+                    </li>
+
+                    <li class="services__item">
+                        <a class="services__link" href="#">
+                            <img class="services__img" src="./images/tanga.png" alt="yellow" width="88" height="88">
+
+                            <p class="services__desc">Prélèvement libératoire</p>
+                        </a>
+                    </li>
+
+                    <li class="services__item">
+                        <a class="services__link" href="#">
+                            <img class="services__img" src="./images/fike.png" alt="yellow" width="88" height="88">
+
+                            <p class="services__desc">Factures externes</p>
+                        </a>
+                    </li>
+
+                    <li class="services__item">
+                        <a class="services__link" href="#">
+                            <img class="services__img" src="./images/tva.png" alt="yellow" width="88" height="88">
+
+                            <p class="services__desc">Plafonds CA & TVA</p>
+                        </a>
+                    </li>
+
+                    <li class="services__item">
+                        <a class="services__link" href="#">
+                            <img class="services__img" src="./images/fileblue.png" alt="yellow" width="88" height="88">
+
+                            <p class="services__desc">Import de données</p>
+                        </a>
+                    </li>
+
+                    <li class="services__item">
+                        <a class="services__link" href="#">
+                            <img class="services__img" src="./images/red.png" alt="yellow" width="88" height="88">
+
+                            <p class="services__desc">Et plus à venir ...</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- PRICE -->
+        <section class="price">
+            <div class="container">
+                <h2 class="services__heading price__heading">
+                    Des tarifs qui s'adaptent
+                    à votre activité !
+                </h2>
+
+                <button class="button button--price">Mensuel</button>
+                <button class="price__btn">Annuel -16,5% 🎉</button>
+
+                <ul class="price__list">
+                    <li class="price__item">
+                        <img class="price__img" src="./images/gratuit.png" alt="gratiut" width="395" height="250">
+
+                        <div class="price__wrapper">
+                            <p class="price__desc">Gratuit</p>
+                            <p class="price__desc">Jusqu'à 4 clients</p>
+                            <p class="price__desc">Chiffre d'affaires jusqu'à 5 000€</p>
+                        </div>
+                    </li>
+
+                    <li class="price__item">
+                        <img class="price__img" src="./images/basique.png" alt="gratiut" width="395" height="250">
+
+                        <div class="price__wrapper">
+                            <p class="price__desc price__desc--green">30 jours d'essai gratuits</p>
+                            <p class="price__desc price__desc--green">Clients illimités</p>
+                            <p class="price__desc price__desc--green">Chiffre d'affaires jusqu'à 30 000€</p>
+                        </div>
+                    </li>
+
+                    <li class="price__item">
+                        <img class="price__img" src="./images/pro.png" alt="gratiut" width="395" height="250">
+
+                        <div class="price__wrapper">
+                            <p class="price__desc price__desc--orange">30 jours d'essai gratuits</p>
+                            <p class="price__desc price__desc--orange">Clients illimités</p>
+                            <p class="price__desc price__desc--orange">Chiffre d'affaires illimité</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
     <!-- FOOTER -->
     <footer class="footer">

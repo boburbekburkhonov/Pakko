@@ -1,1 +1,55 @@
 // bu yerda hero bor
+
+.hero {
+    padding-top: 62px;
+    background: #100A30;
+    border-radius: 0px;
+
+    &__heading {
+        width: 673px;
+        margin: 0;
+        margin: 0 auto;
+        margin-bottom: 26px;
+        font-size: 55px;
+        line-height: 64px;
+        text-align: center;
+        letter-spacing: 0.56px;
+        color: #FFFFFF;
+    }
+
+    &__desc {
+        width: 596px;
+        margin: 0;
+        margin: 0 auto;
+        margin-bottom: 42px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.18px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    &__btn {
+        margin-left: 16px;
+        background-color: none;
+        padding: 15px 37px;
+        border: 1px solid #C3C1CB;
+        border-radius: 8px;
+        background: #100A30;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    &__btn:hover {
+        opacity: 0.8;
+    }
+
+    &__btn:active {
+        opacity: 0.4;
+    }
+
+    &__img {
+        position: relative;
+        top: 50px;
+        left: 100px;
+    }
+}
