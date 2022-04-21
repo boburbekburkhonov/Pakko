@@ -45,10 +45,21 @@
 
     &--price {
         margin-bottom: 80px;
-        margin-left: 620px;
+        margin-left: 520px;
         width: 101px;
         padding: 0 20px;
         background: #624DE3;
         border-radius: 200px;
+    }
+
+    &__last {
+        margin-left: 584px;
+        width: 136px;
+        text-decoration: none;
+        background: #100A30;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
     }
 }

@@ -1,0 +1,28 @@
+.last {
+    padding-bottom: 152px;
+
+    &__container {
+        padding: 96px 0;
+        background: #624DE3;
+        border-radius: 8px;
+    }
+
+    &__desc {
+        margin: 0;
+        margin-bottom: 8px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.18px;
+        color: #FFFFFF;
+    }
+
+    &__heading {
+        margin: 0;
+        margin-bottom: 43px;
+        font-size: 48px;
+        line-height: 54px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+}
